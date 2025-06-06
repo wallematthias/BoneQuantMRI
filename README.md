@@ -157,7 +157,18 @@ Switch to **Code View** in App Designer to customize:
   - **Callbacks** = GUI component responses (ordered by creation)
 
 ---
-## 📄 When Using This App, Please Cite:
+## License
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+You are free to share and adapt the software under the following terms:
+- **Attribution** — You must give appropriate credit.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
+
+See the `LICENSE` file for full terms.
+
+
+When using this software or any modifications of it please cite the following works:
 
 Kassey, V.B., Walle, M., Egan, J., Yeritsyan, D., Beeram, I., Kassey, S.P., Wu, Y., Snyder, B.D., Rodriguez, E.K., Ackerman, J.L. and Nazarian, A., 2024. Quantitative 1H Magnetic Resonance Imaging on Normal and Pathologic Rat Bones by Solid‐State 1H ZTE Sequence with Water and Fat Suppression. *Journal of Magnetic Resonance Imaging*, 60(6), pp.2423–2432.
 

@@ -1,5 +1,8 @@
 # MRI User Interface Manual
 
+![image](https://github.com/user-attachments/assets/12ba626c-63bb-4426-86b8-a6d0b02b794f)
+
+
 ## Purpose
 This user interface supports the analysis of 31P and 1H signals from MRI scans. It allows users to:
 

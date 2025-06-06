@@ -2,28 +2,67 @@
 
 ![image](https://github.com/user-attachments/assets/2522c4d7-550c-47e6-978f-a04b6f49800a)
 
-
 ## Purpose
 This Matlab App supports the analysis of 31P and 1H signals from MRI scans. It allows users to:
 
-1. Visualize images in 2D and 3D
-2. Segment images in 2D
-3. Apply local B1-correction
-4. Apply calibration curves to extract physical measurements
-5. Perform ROI-based processing
+1. Visualize images in 2D and 3D  
+2. Segment images in 2D  
+3. Apply local B1-correction  
+4. Apply calibration curves to extract physical measurements  
+5. Perform ROI-based processing  
 6. Export modified images
 
 The interface was tested with 64 × 64 × 64 images, but other dimensions should also work.
 
 ---
 
-## User Types
-- **(I) Inexperienced Users:** No programming experience required. Familiarity with medical imaging and segmentation is recommended. Use only the UI.
-- **(E) Experienced Users:** Familiar with MATLAB, image processing, and App Designer. Encouraged to modify and extend the app.
+## Folder Structure
+
+```
+BoneQuantMRI/
+├── app/                       # App source (BoneQuantMRI.mlapp)
+│   └── BoneQuantMRI.mlapp
+│
+├── deployment/               # Standalone app and deployment script
+│   └── Mac-AppleSilicon/
+│       └── output/
+│           └── package/
+│               └── installBoneQuantMRI.app   # Installable macOS app
+│
+├── documentation/            # Manual and reference documentation
+│   └── UserManual.md
+│
+├── resources/                # Images/icons used inside BoneQuantMRI.prj
+│   ├── topbar_long.png
+│   ├── icon-2.png
+│   └── ...
+│
+├── LICENSE                   # License file (non-commercial use only)
+└── README.md                 # This file
+```
 
 ---
 
-## Quick Start (for E Users)
+## Standalone App (No MATLAB license required)
+
+A compiled version of the app is included:
+
+```
+deployment/Mac-AppleSilicon/output/package/installBoneQuantMRI.app
+```
+
+### Installation Steps:
+1. Download the folder to your Mac (Apple Silicon).
+2. Double-click `installBoneQuantMRI.app` and follow the installer instructions.
+3. The installer includes the MATLAB Runtime.
+4. Launch the app from your Applications folder like any other macOS app.
+
+Tested on macOS Ventura (13.0) and newer.
+
+---
+
+
+## Quick Start 
 
 1. **Data:** Load raw image and B1 correction image. The B1 image is downscaled automatically.
 2. **Slice Browser:** View images in sagittal, coronal, or axial planes. Use the 3D button to view the result.
@@ -33,7 +72,7 @@ The interface was tested with 64 × 64 × 64 images, but other dimensions should
 
 ---
 
-## Detailed Instructions (for I Users)
+## Detailed Instructions
 
 ### 1. MATLAB Installation
 - Install MATLAB R2019a or newer: [MathWorks Trials](https://www.mathworks.com/campaigns/products/trials.html?prodcode=ML)
@@ -120,7 +159,7 @@ Switch to **Code View** in App Designer to customize:
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 **The app behaves unexpectedly / I see an error.**
 - Check the MATLAB command window for detailed errors
@@ -146,10 +185,10 @@ Do not select subfolders. Place all folders to process into one root folder.
 
 ---
 
-## 📦 Compatibility
+## Compatibility
 Tested from **MATLAB R2019a to R2025a**.
 
 ---
 
-## 📬 Contact
+## Contact
 For questions or contributions, email [matthias.walle@gmail.com](mailto:matthias.walle@gmail.com)

@@ -72,7 +72,7 @@ Tested on macOS Ventura (13.0) and newer.
 
 ---
 
-## Detailed Instructions
+## Detailed Instructions (using MATLAB)
 
 ### 1. MATLAB Installation
 - Install MATLAB R2019a or newer: [MathWorks Trials](https://www.mathworks.com/campaigns/products/trials.html?prodcode=ML)

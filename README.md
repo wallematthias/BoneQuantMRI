@@ -1,9 +1,9 @@
-# MRI User Interface Manual
+# BoneQuantMRI Matlab Application
 
 ![image](https://github.com/user-attachments/assets/41ab5168-fb3b-4d37-9744-d5cc988a5b2c)
 
 ## Purpose
-This user interface supports the analysis of 31P and 1H signals from MRI scans. It allows users to:
+This Matlab App supports the analysis of 31P and 1H signals from MRI scans. It allows users to:
 
 1. Visualize images in 2D and 3D
 2. Segment images in 2D

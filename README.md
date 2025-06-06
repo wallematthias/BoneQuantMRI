@@ -1,6 +1,6 @@
 # BoneQuantMRI Matlab Application
 
-![image](https://github.com/user-attachments/assets/2522c4d7-550c-47e6-978f-a04b6f49800a)
+![image](https://github.com/user-attachments/assets/180dedae-d275-4658-99d4-aa8081de3fb3)
 
 ## Purpose
 This Matlab App supports the analysis of 31P and 1H signals from MRI scans. It allows users to:

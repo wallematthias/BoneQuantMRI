@@ -76,7 +76,6 @@ Tested on macOS Ventura (13.0) and newer.
 
 ### 1. MATLAB Installation
 - Install MATLAB R2019a or newer: [MathWorks Trials](https://www.mathworks.com/campaigns/products/trials.html?prodcode=ML)
-- On BIDMC computers: Use license file from `S:\Obl\Matlab2019a\license.dat`
 
 ### 2. Launch App
 - Open MATLAB → Use the Workspace Browser to open `MRI_Bone_Analysis.mlapp`
@@ -93,7 +92,7 @@ Tested on macOS Ventura (13.0) and newer.
 - Display options (colormap, enhanced contrast) in **Data Processing** tab
 - Turn off overlays for exporting images
 
-### 6. 3D Rendering
+### 6. 3D Rendering (not available in pre-compiled version)
 - Use the 3D button for visualizing the final image
 - MATLAB's `volumeViewer` is used under the hood
 
@@ -156,6 +155,13 @@ Switch to **Code View** in App Designer to customize:
   - **Properties** = Global variables
   - **Private functions** = Main logic (top-to-bottom workflow)
   - **Callbacks** = GUI component responses (ordered by creation)
+
+---
+## 📄 When Using This App, Please Cite:
+
+Kassey, V.B., Walle, M., Egan, J., Yeritsyan, D., Beeram, I., Kassey, S.P., Wu, Y., Snyder, B.D., Rodriguez, E.K., Ackerman, J.L. and Nazarian, A., 2024. Quantitative 1H Magnetic Resonance Imaging on Normal and Pathologic Rat Bones by Solid‐State 1H ZTE Sequence with Water and Fat Suppression. *Journal of Magnetic Resonance Imaging*, 60(6), pp.2423–2432.
+
+Kassey, V.B., Walle, M., Egan, J., Yeritsyan, D., Beeram, I., Wu, Y., Snyder, B.D., Rodriguez, E.K., Ackerman, J.L. and Nazarian, A., 2024. Quantitative 31P magnetic resonance imaging on pathologic rat bones by ZTE at 7T. *Bone*, 180, p.116996.
 
 ---
 
